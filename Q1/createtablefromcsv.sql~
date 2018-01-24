@@ -1,0 +1,506 @@
+CREATE TABLE IF NOT EXISTS Stars1H (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-1-H-all.csv Stars1H
+
+CREATE TABLE IF NOT EXISTS Stars1J (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-1-J-all.csv Stars1J
+
+CREATE TABLE IF NOT EXISTS Stars1K1 (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-1-Ks-E001-all.csv Stars1K1
+
+CREATE TABLE IF NOT EXISTS Stars1K2 (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-1-Ks-E002-all.csv Stars1K2
+
+CREATE TABLE IF NOT EXISTS Stars1K3 (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-1-Ks-E003-all.csv Stars1K3
+
+CREATE TABLE IF NOT EXISTS Stars1Y (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-1-Y-all.csv Stars1Y
+
+CREATE TABLE IF NOT EXISTS Stars1Z (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-1-Z-all.csv Stars1Z
+
+
+
+CREATE TABLE IF NOT EXISTS Stars2H (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.import Field-2-H-all.csv Stars2H
+
+CREATE TABLE IF NOT EXISTS Stars2J (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-2-J-all.csv Stars2J
+
+
+CREATE TABLE IF NOT EXISTS Stars2K1 (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-2-Ks-E001-all.csv Stars2K1
+
+CREATE TABLE IF NOT EXISTS Stars2Y (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-2-Y-all.csv Stars2Y
+
+CREATE TABLE IF NOT EXISTS Stars2Z (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-2-Z-all.csv Stars2Z
+
+
+CREATE TABLE IF NOT EXISTS Stars3H (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+
+.mode csv
+.import Field-3-H-all.csv Stars3H
+
+CREATE TABLE IF NOT EXISTS Stars3J (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-3-J-all.csv Stars3J
+
+
+CREATE TABLE IF NOT EXISTS Stars3K1 (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-3-Ks-E001-all.csv Stars3K1
+
+CREATE TABLE IF NOT EXISTS Stars3K2 (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-3-Ks-E002-all.csv Stars3K2
+
+
+CREATE TABLE IF NOT EXISTS Stars3Y (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-3-Y-all.csv Stars3Y
+
+CREATE TABLE IF NOT EXISTS Stars3Z (RunningID DOUBLE,
+									Ra DOUBLE,
+									Dec DOUBLE,
+									X DOUBLE,
+									Y DOUBLE,
+									Flux1 DOUBLE,
+									dFlux1 DOUBLE,
+									Flux2 DOUBLE,
+									dFlux2 DOUBLE,
+									Flux3 DOUBLE,
+									dFlux3 DOUBLE,
+									Class INT,
+									Mag1 DOUBLE,
+									dMag1 DOUBLE,
+									Mag2 DOUBLE,
+									dMag2 DOUBLE,
+									Mag3 DOUBLE,
+									dMag3 DOUBLE,
+									StarID INT,
+									MJD DOUBLE,
+									FieldID INT
+									);
+
+.mode csv
+.import Field-3-Z-all.csv Stars3Z
+
+
+CREATE TABLE IF NOT EXISTS Relationtable (FieldID INT,
+										Filename VARCHAR(20),
+										Filter VARCHAR(20),
+										MJD DOUBLE,
+										CONSTRAINT fk1 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk2 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1J(FieldID, MJD),
+										CONSTRAINT fk3 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1K1(FieldID, MJD),
+										CONSTRAINT fk4 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1K2(FieldID, MJD),
+										CONSTRAINT fk5 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1K3(FieldID, MJD),
+										CONSTRAINT fk6 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1Y(FieldID, MJD),
+										CONSTRAINT fk7 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk8 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk9 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk10 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk11 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk12 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk13 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk14 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk15 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk16 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk17 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD),
+										CONSTRAINT fk18 FOREIGN KEY (FieldID, MJD) REFERENCES Stars1H(FieldID, MJD)
+										);
+.mode csv
+.import tabledatalocationq1.csv Relationtable
+
+References: 
+http://www.sqlite.org/foreignkeys.html
+https://www.sqlservercentral.com/Forums/Topic1540629-3077-1.aspx
+http://www.sqlitetutorial.net/sqlite-export-csv/
+

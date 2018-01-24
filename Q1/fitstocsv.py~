@@ -1,0 +1,29 @@
+from astropy.table import Table
+import numpy as np
+from astropy.io import fits
+import csv
+
+#Open fits file and extract data from index 1
+f = fits.getdata('Field-2-J.fits', 1)
+
+#Tabulate data
+t = Table(f)
+
+#write to csv file
+
+header =['RunningID','Ra','Dec','X','Y','Flux1','dFlux1','Flux2','dFlux2','Flux3','dFlux3','Class','Mag1','dMag1','Mag2','dMag2','Mag3','dMag3','StarID']
+
+#Write data to .csv file
+with open('Field-2-J.csv', "w") as csvfile:
+	writer = csv.writer(csvfile, lineterminator='\n')
+	writer.writerow(header)
+	writer.writerows(t)
+
+
+	
+	
+
+
+
+
+

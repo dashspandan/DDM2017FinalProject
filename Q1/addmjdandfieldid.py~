@@ -1,0 +1,9 @@
+# Code inspired from an answer in Stack Overflow that can be found here: https://stackoverflow.com/questions/11070527/how-to-add-a-new-column-to-a-csv-file
+
+
+import pandas as pd
+f = pd.read_csv('Field-3-Ks-002.csv')
+f['MJD'] = 56562.0020158
+f['FieldId'] = 3
+f.to_csv('Field-3-Ks-E002-all.csv', index=False)
+
